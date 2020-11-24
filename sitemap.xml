@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://analisispezia.it/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://analisispezia.it/docs/Profili_offerta.pdf</loc>
+  <lastmod>2013-11-14T22:17:44+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://analisispezia.it/docs/Intolleranze_alimentari.pdf</loc>
+  <lastmod>2013-11-14T22:17:44+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://analisispezia.it/docs/Ginecologia_tariffario.pdf</loc>
+  <lastmod>2013-11-14T22:17:44+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://analisispezia.it/docs/OffertaServiziInfermieristici.pdf</loc>
+  <lastmod>2013-11-14T22:17:44+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://analisispezia.it/docs/Elenco_Specialisti.pdf</loc>
+  <lastmod>2013-11-14T22:17:44+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://analisispezia.it/docs/Medicina_del_lavoro.pdf</loc>
+  <lastmod>2013-11-14T22:17:44+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://analisispezia.it/docs/Veterinaria.pdf</loc>
+  <lastmod>2013-11-14T22:17:44+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+</urlset>

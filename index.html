@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+		<meta charset="utf-8" />
+        <link rel="shortcut icon" href="favicon.ico">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+        <title>Analisi Cliniche La Spezia - Laboratorio di Patologia Clinica Muricchio e Fasce</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <meta name="description" content="Laboratorio di Patologia Clinica a La Spezia. Esegue esami specialistici come: test per intolleranze alimentari, breath test per elicobacter pylori, esame citologico urinario, fertilità maschile, chimica clinica, endocrinologia, sieroimmunologia, coaugulazione, allergologia, medicina del lavoro." />
+        <meta name="keywords" content="analisi,intolleranze,sangue,la spezia,esami,medicina,urine,fertilità,sieroimmunologia,coaugulazione" />
+
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//stats.g.doubleclick.net/dc.js','ga');
+          ga('create', 'UA-45775100-1', 'analisispezia.it');
+          ga('send', 'pageview');
+        </script>
+
+        <style>
+
+            body {
+                font-family: 'Lato', sans-serif;
+                padding: 0;
+                margin: 0;
+                margin-top: -1.5em;
+                font-size: 16px;
+                background: #f1f2f7;
+            }
+
+            .section {
+                padding: 1em 0;
+                display: block;
+                position: relative;
+            }
+
+            .section > p,
+            .section > dl,
+            .section > ol,
+            .section > ul {
+                padding: 0 3em;
+            }
+
+            .section h2 {
+                font-weight: 300;
+                border-bottom: solid #dadbff 1px;
+                background: #b14f6f;
+                color: #fff;
+                padding: 0.4em 1em;
+            }
+
+
+            .hero {
+                background: url(/img/laboratorio.jpg) center no-repeat;
+                background-size: cover;
+                height: 650px;
+                text-shadow: #000 1px 1px 5px;
+                font-weight: 300;
+                color: #fff;
+                padding: 0 0;
+            }
+
+            .hero > h1 {
+                font-weight: 900;
+                padding: 0.4em 1em;
+                text-align: center;
+                padding-top: 1em;
+            }
+
+            .hero > h1 > small {
+                font-weight: 400;
+            }
+
+            .hero > p {
+                padding: 0.4em 1em;
+                text-align: center;
+                margin-top: 0;
+                padding-top: 0;
+            }
+
+            .gutter {
+                display: block;
+                background: #fff url(/img/laboratorio_muricchio_small.png) top center no-repeat;
+                background-position-y: 15px;
+                background-size: 60%;
+                content: '';
+                width: 3em;
+                height: 100%;
+                position: fixed;
+                box-shadow: rgba(21, 54, 113, 0.46) -20px 0 20px -15px inset;
+            }
+
+            .content {
+                margin-left: 3em;
+                display: block;
+            }
+
+            dt {
+                font-weight: 600;
+                font-size: 1.2em;
+                background: #3c4f86e3;
+                color: #fff;
+                padding: 0.5em 1.5em;
+                border-radius: 5em;
+            }
+
+            dd {
+                font-weight: 700;
+                margin-left: 1em;
+            }
+
+            dd > ul {
+                margin-top: 0.5em;
+                padding-inline-start: 1.5em;
+            }
+
+            li {
+                line-height: 2em;
+            }
+
+            li > a[href]::after {
+                content: '+';
+                display: inline-block;
+                padding: 0 4.5px;
+                background: rgba(68,36,36,.33);
+                color: #fff;
+                border-radius: 3em;
+                font-size: 0.9em;
+                font-weight: 900;
+                margin-left: 0.5em;
+                line-height: 1.3em;
+            }
+
+            a,a:link,a:visited {
+                color: #b14f6f;
+                text-decoration: none;
+            }
+
+            a:hover,a:active {
+                color: #7c07ad;
+                text-decoration: underline;
+            }
+
+            .section > .spaced {
+                padding: 3em 3em;
+            }
+
+            .hero + .section {
+                margin-top: -2em;
+                padding-top: 0;
+            }
+
+            .map-responsive{
+                overflow:hidden;
+                padding-bottom:56.25%;
+                position:relative;
+                height:0;
+            }
+            .map-responsive iframe{
+                left:0;
+                top:0;
+                height:100%;
+                width:100%;
+                position:absolute;
+            }
+
+            .hero > .segnalazioni {
+                font-weight: 900;
+                color: #fff;
+                background: #000;
+                text-shadow: none;
+                padding: 1em 1em;
+                position: absolute;
+                left: 0;
+                right: 0;
+                bottom: 0;
+            }
+
+            .hero > .segnalazioni > * {
+                animation: blink-animation 1s linear infinite;
+            }
+
+            .hero > .segnalazioni > a,
+            .hero > .segnalazioni > a:link,
+            .hero > .segnalazioni > a:visited {
+                color: #fff !important;
+            } 
+
+            @keyframes blink-animation {
+                50% { opacity: 0.25; }
+            }
+
+            dd > p > b {
+                font-weight: 900;
+            }
+
+            @media only screen and (max-width: 600px) {
+                .hide-mobile {
+                    display: none;
+                }
+
+                .gutter {
+                    display: none;
+                }
+
+                .content {
+                    margin-left: 0;
+                }
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="gutter"></div>
+        <div class="content">
+            <div class="section hero">
+                <a name="top"></a><h1>Laboratorio di Patologia Clinica Muricchio<br><small>di Dr.ssa D. Fasce</small></h1></a>
+                <p class="segnalazioni">
+                    <a href="#covid19">NOVIT&Agrave;: 😷 TEST SU SIERO PER <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/apple/155/microbe_1f9a0.png" height="16">CORONAVIRUS</a>
+                </p>
+            </div>
+
+            <div class="section">
+                <a name="chi-siamo"></a><h2>Chi siamo</h2>
+                <p class="spaced">
+                    Nato 50 anni fa, nel 1983 ha cambiato ragione sociale e sotto la direzione della <b>Dott.ssa Fasce Daniela</b>, ha ampliato la sua attivit&agrave;.<br>
+                    <br>
+                    Accreditato con la ASL, convenzionato con Previmedical, Servizio Naviganti, MUSA, UNIsalute, Assirete, AXA<br>
+                    <br>
+                    Garantisce ai privati, alle aziende ed ai convenzionati, prestazioni sanitarie <b>qualificate</b> con risposte <b>rapide</b> anche via <b>E-Mail</b> e prelievi a domicilio.
+                    <br>
+                    <br>
+                    &#x1F4DE; <a href="tel:+39018722953">0187-22953</a><br>
+                    <br>
+                    &#x2709; <a href="mailto:lab.muricchiodifasce@libero.it">lab.muricchiodifasce@libero.it</a>
+                </p>
+            </div>
+
+
+            <div class="section">
+                <a name="servizi"></a><h2>Servizi</h2>
+                <dl>
+                    <dt>Eseguiamo analisi di:</dt>
+                    <dd>
+                        <ul>
+                            <li><a target="_blank" href="docs/Profili_offerta.pdf">Chimica Clinica</a></li>
+                            <li>Endocrinologia</li>
+                            <li>Sieroimmunologia</li>
+                            <li>Coagulazione</li>
+                            <li>Allergologia</li>
+                            <li>Breath Test per Elicobacter Pylori</li>
+                            <li><a target="_blank" href="docs/Intolleranze_alimentari.pdf">Test per intolleranze alimentari (Bi-Food)</a></li>
+                            <li><a target="_blank" href="http://www.natrixlab.it/indice-test-diagnostici/immunologia/food-intolerance-test/">Test per intolleranze alimentari (Natrix)</a></li>
+                            <li><a target="_blank" href="docs/Ginecologia_tariffario.pdf">Ginecologia e fertilità</a></li>
+                            <li><a target="_blank" href="docs/OffertaServiziInfermieristici.pdf">Servizi infermieristici</a></li>
+                            <li>Elettrocardiogramma e visita cardiologica</li>
+                            <li><a target="_blank" href="docs/Elenco_Specialisti.pdf">Visite specialistiche</a></li>
+                            <li><a target="_blank" href="docs/Medicina_del_lavoro.pdf">Medicina del Lavoro</a></li>
+                            <li><a target="_blank" href="docs/Veterinaria.pdf">Veterinaria</a></li>
+                        </ul>
+                    </dd>
+                    <dt class="novita">Test Genetici Metabolici e Crioconservazione Staminali</dt>
+                    <dd>
+                        <ul>
+                            <li>Citologia</li>
+                            <li>Microbiologia</li>
+                        </ul>
+                    </dd>
+                    
+                    <a name="covid19"></a>
+                    <dt class="novita">Test su siero per Coronavirus</dt>
+                    <dd>
+                        <p>
+                            Tutte le mattine da lunedì a sabato si effettua rilevamento anticorpi IGG/IGM SARS – COV2 – COVID 19 su prelievo ematico.<br>
+                            <br>
+                            Al momento del prelievo, da effettuarsi presso la nostra struttura, <b>non è necessario essere a digiuno</b>.
+                        </p>
+                    </dd>
+
+                </dl>
+
+            </div>
+            
+            <div class="section">
+                <a name="orari"></a><h2>Orari</h2>
+                <p class="spaced">
+                    Da <b>Luned&igrave;</b> a <b>Venerd&igrave;</b><br>
+                    dalle 07:30 alle 12:30 e dalle 17:00 alle 19:00<br>
+                    <br>
+                    <b>Sabato</b><br>
+                    dalle 07:30 alle 12:30<br>
+                    <br>
+                    Al di fuori degli orari di apertura e per <b>urgenze</b> contattaci telefonicamente al numero telefonico :<br>
+                    <br>
+                    <big> &#x1F4DE; <a href="tel:+393358086580">335-8086580</a></big>
+                </p>
+            </div>
+            
+            <div class="section hide-mobile">
+                <a name="trovaci"><h2>Trovaci</h2></a>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11459.5015838718!2d9.818167!3d44.106563!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12d4fc9954bbb2a3%3A0x283a88b0ab5ae224!2sLaboratorio%20Di%20Patologia%20Clinica%20Dr.%20C.%20Muricchio%20S.a.s.%20di%20Dr.Ssa%20Fasce%20%26%20C.!5e0!3m2!1sit!2sus!4v1585674415873!5m2!1sit!2sus" width="100%" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+            
+            <div class="section">
+                <a name="contattaci"></a><h2>Contattaci</h2>
+                <p class="spaced">
+                    &#x1F4DE; <b>Telefono</b>:  <a href="tel:+39018722953">0187-22953</a><br>
+                    <br>
+                    &#x1F4E0; <b>FAX</b>: <a href="fax:+39018722953">0187-22953</a><br>
+                    <br>
+                    &#x2709; <b>E-Mail</b>: <a href="mailto:lab.muricchiodifasce@libero.it">lab.muricchiodifasce@libero.it</a><br>
+                </p>
+                <p>
+                    &#x1F52C; <b>Laboratorio di Patologia Clinica</b><br>dei Dr. C. Muricchio &amp; Dr.ssa Daniela Fasce &amp; C. sas<br>
+                    <br>
+                    <a href="https://goo.gl/maps/3oEjHUMUUBHph3hb7">36, v. Urbano Rattazzi - 19121 La Spezia (SP)</a><br>
+                    <br>
+                    PIVA: 00762660116
+                </p>
+            </div>
+        </div>
+
+	</body>
+</html>
